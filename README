@@ -1,0 +1,5 @@
+Sumtree is an eductational program that shows the order of operation in mathematics.
+
+The simplest example is the expression "1+2*3", the correct answer is 7 and not 9.
+
+Sumtree draws the sum as a tree.
