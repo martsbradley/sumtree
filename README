@@ -3,3 +3,23 @@ Sumtree is an eductational program that shows the order of operation in mathemat
 The simplest example is the expression "1+2*3", the correct answer is 7 and not 9.
 
 Sumtree draws the sum as a tree.
+
+Building:
+This program relies on wx-widgets, so to compile on a Debian based system
+install the development libs.
+
+>>apt-get install libwxgtk3.0-dev
+
+
+
+Then you can install to your home directory without needing root access.
+
+>>./configure --prefix=/home/martin/Documents/Software/Cpp/sumtree/usr
+
+>>make
+>>make install
+
+
+To run the program.
+
+>>./usr/bin/sumtree 
