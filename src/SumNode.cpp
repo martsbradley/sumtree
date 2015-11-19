@@ -264,7 +264,7 @@ bool CSumNode::IsNodeCollapsed() const
 wxString GetSumNodeUniqueName(const CSumNode& arSumNode)
 {
          wxString Result = GetName(arSumNode.GetType());
-         Result << (int)&arSumNode;
+         Result << (long int)&arSumNode;
          return Result;
 }
 
