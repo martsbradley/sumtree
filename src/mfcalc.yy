@@ -20,8 +20,10 @@
 %type  <node>  exp
 
 %right '='
-%left '-' '+'
-%left '*' '/'
+%left '-' 
+%left '+'
+%left '*' 
+%left '/'
 %left NEG     /* negation--unary minus */
 %right '^'    /* exponentiation */
 
